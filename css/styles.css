@@ -1,0 +1,131 @@
+html, body {width:100%; margin: 10px 0 0 0; padding: 0px; background-color:grey;}
+
+header, section, footer, aside, nav, article, figure { display: block; }
+nav, article, aside {float: left;}
+
+#main {
+background-color: white;
+
+width: 960px; 
+min-height: 700px;
+overflow: auto;
+padding: 20px;
+margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;}
+
+
+
+header {
+padding: 5px;
+width: 100%; 
+margin-left: auto;
+margin-right: auto;
+}
+
+header > * { float:left; min-width:30%; 
+}
+
+.logo1 { 
+height:70px;
+}
+
+header h1 {
+height: 75px;
+text-align: center; 
+vertical-align: middle;
+}
+
+
+.logo2 {
+float: right;
+height: 85px;
+}
+
+
+nav { 
+width:15%;
+float: left;
+background: #be1035; 
+margin-left: 20px; 
+margin-right: 5px;
+padding: 5px; 
+border-radius: 8px; 
+box-shadow: 2px 2px 5px grey;
+}
+
+article {
+background-color: white;
+width: 63%;  
+float: left;}
+
+.textcenter {text-align: center;}
+.groupphoto { width: 300px; display: block; margin-left: auto; margin-right: auto; box-shadow: 2px 2px 5px black;
+}
+
+aside { 
+margin-right: 5px;
+width: 15%;
+min-width: intrinsic;
+float: left;
+background: #be1035; 
+padding: 5px; 
+border-radius: 8px; 
+box-shadow: 2px 2px 5px grey;
+
+}
+
+.imglist {
+	width:100%;
+    margin:0 auto;		
+}
+.imgul {
+	
+	width:100%;
+    padding-bottom:2.5%;
+    float:left;
+}
+
+.imgli {
+	width:30%;
+    margin:2.5% 0 0 2.5%;
+    float:left;
+    position:relative; /* Needed for z-indexing later */
+}
+ul li img {
+    max-width:100%;
+    border:2px solid #eee;
+    box-sizing:border-box; /* Don't forget vendor prefixes! */
+}
+
+.imglist li {
+    -webkit-transition:all 0.6s ease; /* Remember vendor prefixes! */
+    opacity:0.9;
+}
+
+.imglist li:hover {
+    -webkit-transform:scale(2.0); /* Remember vendor prefixes! */
+    opacity:1;
+    box-shadow:5px 3px 5px rgba(0, 0, 0, 0.3);
+    z-index:2;
+}
+
+.person {float: left}
+.personimg {float: left;}
+.persondisc { float: left;}
+
+.left {float: left;}
+.right {float: right;}
+.clear {clear: both;}
+a {line-height: 2; padding: 3px; color: white;;}
+
+
+ul {list-style: none; }
+ul {margin: 0px; padding: 0px;}
+
+article h1 {padding: 0px 2.5% 0px 2.5%;}
+article h2 {padding: 0px 2.5% 0px 2.5%;}
+p {padding: 0px 2.5% 0px 2.5%;}
+
+
+/*<a href="http://www.materials.ox.ac.uk">*/	
