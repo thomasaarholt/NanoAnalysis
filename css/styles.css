@@ -52,6 +52,12 @@ margin-right: 5px;
 padding: 5px; 
 border-radius: 8px; 
 box-shadow: 2px 2px 5px grey;
+font-family: 'Droid Serif', serif;
+font-size: 90%;
+}
+
+nav a, aside a {
+line-height: 2; padding: 3px; color: white;
 }
 
 article {
@@ -72,7 +78,8 @@ background: #be1035;
 padding: 5px; 
 border-radius: 8px; 
 box-shadow: 2px 2px 5px grey;
-
+font-family: 'Droid Serif', serif;
+font-size: 90%;
 }
 
 .imglist {
@@ -110,14 +117,37 @@ ul li img {
     z-index:2;
 }
 
-.person {float: left}
-.personimg {float: left;}
-.persondisc { float: left;}
+.person {
+width: 100%;
+float: left;
+display: inline;
+padding-bottom: 15px;
+border-bottom: 1px dashed;
+margin-bottom: 15px;
+clear: both;
+}
+
+.personimg {
+float: left;
+margin: 10px;
+}
+.personimg a {
+display:block;
+margin: 0 0 0 30px;
+}
+.personimg img {
+float: left;
+padding: 4px;
+border: 1px solid #CCC;
+display: inline;
+}
+.persondisc { 
+margin: 0 0 0 130px;
+}
 
 .left {float: left;}
 .right {float: right;}
 .clear {clear: both;}
-a {line-height: 2; padding: 3px; color: white;;}
 
 
 ul {list-style: none; }
