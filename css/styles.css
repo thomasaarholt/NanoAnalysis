@@ -5,7 +5,6 @@ nav, article, aside {float: left;}
 
 #main {
 background-color: white;
-
 width: 960px; 
 min-height: 700px;
 overflow: auto;
@@ -38,12 +37,6 @@ width: 300px;
 
 }
 
-header h1 {
-vertical-align: middle;
-display: inline;
-text-align: center;
-
-}
 
 .logo2 {
 float: right;
@@ -51,6 +44,17 @@ width: 270px;
 }
 
 .titlecenter {text-align: center;}
+
+.titleformat {
+text-shadow: 2px 2px 5px grey;
+vertical-align: middle;
+display: inline;
+text-align: center;
+}
+
+.titlecolor {
+color: #be1035;
+}
 
 nav { 
 width:15%;
@@ -61,7 +65,7 @@ margin-right: 5px;
 padding: 5px; 
 border-radius: 8px; 
 box-shadow: 2px 2px 5px grey;
-font-family: 'Droid Serif', serif;
+font-family: arial,"Lucida Grande", "Lucida Sans Unicode", Verdana, Geneva, Lucida, sans-serif;
 font-size: 90%;
 }
 
@@ -88,7 +92,7 @@ background: #be1035;
 padding: 5px; 
 border-radius: 8px; 
 box-shadow: 2px 2px 5px grey;
-font-family: 'Droid Serif', serif;
+font-family: arial,"Lucida Grande", "Lucida Sans Unicode", Verdana, Geneva, Lucida, sans-serif;
 font-size: 90%;
 }
 
